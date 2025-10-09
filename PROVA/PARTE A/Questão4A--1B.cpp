@@ -218,7 +218,6 @@ int main()
             break;
 
         case 5: // Ver tamanho // LETRA D, DA 1 (PARTE B)
-            // ⚠ Aqui há um problema: está chamando GetTamanho errado
             cout << "Numero de elementos na lista: "
                  << lista.GetTamanho(int tamanho) << endl;
             break;
@@ -236,3 +235,4 @@ int main()
 
     return 0;
 }
+
